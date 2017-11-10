@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Achilles Acme CMS Data library.</Description>
+    <PackageProjectUrl>https://github.com/Achilles-Software/Acme.Data</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/Achilles-Software/Acme.Data/achilles-icon.png</PackageIconUrl>
+    <PackageTags>Amce CMS; CMS; Data Services; Module</PackageTags>
+    <RepositoryUrl>https://github.com/Achilles-Software/Acme.Data</RepositoryUrl>
+    <RootNamespace>Achilles.Acme.Data</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />    
+  </ItemGroup>
+
+</Project>
